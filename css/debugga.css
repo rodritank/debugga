@@ -1,0 +1,79 @@
+/********************************************************
+*********************************************************
+
+DEBUGGA - A CSS WIREFRAME DEBUGGER/PROTO TOOL
+
+Author: RODRIGO TANK @ https://github.com/rodritank
+License: NONE
+Version: 1.0
+
+Description: DEBUGGA is a CSS framework focused on 
+wireframe debugging and prototyping tool. 
+
+Use the "debug" classes in your HTML to highlight 
+elements and markups. Sometimes it is easier to use 
+this instead of using the "Inspect Element" tools 
+from Firebug or your browser's.
+
+DEBUGGA uses multiple name classes so you can 
+fit it better to your authoring. There are 
+currently 4 debug classes 
+(debug, debug2, debug3 and debug4 plus variations) 
+to highlight div widths and heights, plus a 
+special class that paints the div so you 
+can see it better in the page.
+
+*********************************************************
+*********************************************************/
+
+.debug,
+.dbg,
+.dbgr,
+.debug-red,
+.debugr {
+	border: 2px dashed #FF0000 !important;
+	margin: 0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+.debug2,
+.dbg2,
+.dbgg,
+.debug-green,
+.debugg {
+	border: 2px dashed #00FF00 !important;
+	margin: 0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+.debug3,
+.dbg3,
+.dbgb,
+.debug-blue,
+.debugb {
+	border: 2px dashed #0000FF !important;
+	margin: 0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+.debug4,
+.dbg4,
+.dbgp,
+.debug-pink,
+.debugp {
+	border: 2px double #FF00FF !important;
+	margin: 0 !important;
+	width: 100%;
+	height: 100%;
+}
+
+.debug:before {
+	content: "" !important;
+}
+
+.debug:after {
+	content: "" !important;
+}

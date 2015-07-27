@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<link rel="shortcut icon" href="http://sstatic.net/stackoverflow/img/favicon.ico">
+	<link rel="stylesheet" href="css/debugga.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<style type="text/css">
+		body {
+			margin: 0;
+			min-height: 100%;
+			padding: 0;
+			background-color: #222222;
+			font-family: 'Open Sans';
+			font-size: 12px;
+			color: #FFFFFF;
+			text-align: center;
+		}
+		
+		p {
+			text-align: left;
+		}
+		
+		.logo {
+			margin: 0 auto;
+			display: block;
+			text-align: center;
+		}
+		
+		.superWrapper,
+		.sWrapper {
+			height: 100%;
+			margin: 0 auto;
+			max-width: 640px;
+			width: 640px;
+			/* decent width for most of event needs */
+		}
+		
+		.container {
+			height: 100%;
+			width: 100%;
+			display: inline-block;
+		}
+		
+		.textRight {
+			width: 45%;
+			height: 100%;
+			display: block;
+			padding: 5px;
+			float: right;
+		}
+		
+		.textLeft {
+			width: 45%;
+			height: 100%;
+			display: block;
+			padding: 5px;
+			float: left;
+		}
+		
+		.demonstration {
+			font-style: italic;
+			font-size: 22px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="superWrapper">
+
+		<div>
+			<img src="img/debugga_icon.png" />
+		</div>
+
+		<div>
+			<p>DEBUGGA is a CSS framework focused on wireframe debugging and prototyping tool. </p>
+			<p>Use the "debug" classes in your HTML to highlight elements and markups. Sometimes it is easier to use this instead of using the "Inspect Element" tools from Firebug or your browser's.</p>
+			<p>Just like this:
+				<br>
+				<br>
+				<span class="demonstration">
+			
+			&lt;div id="your-id" class="your-classes debug"&gt;
+			
+			</span>
+				<br>
+				<br>
+			</p>
+			<p>DEBUGGA uses multiple name classes so you can fit it better to your authoring. There are currently 4 debug classes (debug, debug2, debug3 and debug4 plus variations) to highlight div widths and heights. You can also use it to visualize nested divs better.
+			</p>
+			<p>This is pretty much simple and it is meant to speed up work. You can copy it and use it freely.</p>
+
+		</div>
+
+		<div class=" container debug3">
+			<div class="textLeft debug">
+				<p>Lorem ipsum dolor sit amet, facer mandamus nam ne, an mel omnesque detraxit sapientem. Eu verterem complectitur sed, nec eu inciderint accommodare, ad pri etiam mucius. Agam dolorum quaerendum ea per, ea everti facilisi cum, at rebum dissentias nec. Duo ad oblique reformidans efficiantur, eam ex cibo dicit. Ex quo putant vituperata, ne pri nisl adhuc, vero aliquando id est.</p>
+			</div>
+
+			<div class="textRight debug2">
+				<p>Ne pri alia natum prima, id quo deleniti luptatum deserunt. No eum prompta eligendi, vim ferri diceret an. Summo dolor reprehendunt vis id, dico saperet adversarium nec ex, an eos harum movet quando. Quem admodum convenire sea at, consulatu incorrupte no ius, duo cu quas ignota. No sint copiosae perpetua usu, ei has populo adolescens.</p>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
