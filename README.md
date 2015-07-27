@@ -14,7 +14,7 @@ from Firebug or your browser's.
 USAGE
 =====
 
-<div id="your-id" class="your-class debug"></div>
+&lt;div id="your-id" class="your-classes debug"&gt;
 
 DEBUGGA uses multiple name classes so you can 
 fit it better to your authoring. There are 
